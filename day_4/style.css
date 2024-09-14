@@ -1,0 +1,166 @@
+body {
+    margin:0;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(62, 85, 139);
+    color: #ffffff;
+    text-align: center;
+    grid-area: header;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aquamarine;
+
+
+}
+
+#title {
+    font-family: "Castle", sans-serif;
+    font-size: 350%;
+    color: rgb(200, 221, 240);
+}
+
+#menu {
+    padding: 32px;
+    background-color: rgb(132, 154, 205);
+    grid-area: menu;
+    color: rgb(229, 227, 252);
+    
+}
+#menu > h2 {
+    color:rgb(5, 21, 105)
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 164);
+
+}
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+#signup {
+    margin-top: 1px;
+    display: flex;
+    align-items:end;
+    flex-flow: row;
+
+}
+
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 5px;
+    margin: 15px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+img{
+    border-radius: 40%;
+}
+
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-content {
+    padding: 32px;
+    grid-area: main;
+    background-color: rgb(150, 236, 225);
+    display: flex;
+    align-items: left;
+    flex-flow: row;
+    gap: 1px;
+}
+
+#main-content2 {
+    padding: 32px;
+    grid-area: main2;
+    background-color: rgb(242, 218, 238);
+    display: flex;
+    align-items: left;
+    flex-flow: row;
+    gap: 15px;
+}
+
+#main-content3 {
+    padding: 32px;
+    grid-area: main3;
+    background-color: rgb(234, 234, 206);
+    display: flex;
+    align-items: left;
+    flex-flow: row;
+    gap: 15px;
+}
+
+#main-content4 {
+    padding: 32px;
+    grid-area: main4;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: left;
+    flex-flow: row;
+    gap: 15px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 142, 213) ;
+
+}
+
+.hyperlink {
+    color:rgb(217, 200, 240);
+    text-decoration:none ;
+    padding: 15px;
+    border: 1px solid rgb(61, 17, 98);
+    border-radius: 10%;
+    background-color:rgb(117, 69, 184) ;
+}
+
+.signin {
+    color:rgb(217, 200, 240);
+    text-decoration:none ;
+    padding: 15px;
+    border: 1px solid rgb(99, 88, 179);
+    border-radius: 10%;
+    background-color:rgb(122, 123, 218) ;
+}
+
+footer {
+    padding: 23.2px;
+    background-color: rgb(62, 85, 139);
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    grid-area: footer;
+}
+
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "menu main main2"
+    "menu main3 main4"
+    "footer footer footer"
+    ;
+    grid-template-columns: 2fr 6fr 6fr;
+    
+}
+
+
+
